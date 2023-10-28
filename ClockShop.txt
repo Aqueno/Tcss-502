@@ -1,0 +1,46 @@
+from clock import Clock
+
+class ClockShop:
+    def __init__(self):
+        self.__Clocks = [] # initialize an empty list to store Clock objects
+
+    def fill_clock_shop(self, list_of_times):                       # We don't need to provide times in the code. The list will assemble itself as the users provide time values in the form of "hh:mm:ss" strings.
+        for i in list_of_times:                                     #
+            (hour, minute, second) = i.split(":")                   # splits the hour, minute, and second values over the :
+            clock1 = Clock(int(hour), int(minute), int(second))     # Generates our Clock-class objects (and takes the hour, minute, and second parameters they require as established in clock.py). It also sets the hour, minute, and second values as integers to operate with later during our comparisons.
+            self.__Clocks.append(clock1)                            # Adds the new list entries to the growing __Clocks() lists.
+
+    def sort_clocks(self):
+        self.__Clocks.sort()
+
+    def find_clock(self, a_clock):
+        count = 0
+        for a in self.__Clocks:
+            if a == a_clock:
+                return count
+            count += 1
+        return -1
+
+
+    def __str__(self):
+        string = ""
+        for i in self.__Clocks:
+            string += str(i) + "\n"
+        return string
+
+    def get_clock(self, index):
+        count = len(self.__Clocks)
+        if index < 0 or index >= count:
+                raise ValueError("Outside of range")
+        return self.__Clocks[index]
+
+    def set_clock(self, a_clock, index):
+        count = len(self.__Clocks)
+        if index <0 or index >= count:
+            raise ValueError("Outside of range")
+        else: self.__Clocks[index] = a_clock
+
+
+
+c1 = ClockShop()
+c1.fill_clock_shop(["1:1:1", '2:2:2'])
