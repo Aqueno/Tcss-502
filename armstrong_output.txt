@@ -1,0 +1,129 @@
+Welcome to armstrong number calculator.
+Please enter an integer from 10 through 100,000,000(without the commas): 10
+The Armstrong numbers from 10 to 10  are:
+
+
+The total number of Armstrong numbers found was : 0
+Welcome to armstrong number calculator.
+Please enter an integer from 10 through 100,000,000(without the commas): 100
+The Armstrong numbers from 10 to 100  are:
+
+
+The total number of Armstrong numbers found was : 0
+Welcome to armstrong number calculator.
+Please enter an integer from 10 through 100,000,000(without the commas): 1000
+The Armstrong numbers from 10 to 1000  are:
+
+153
+370
+371
+407
+
+The total number of Armstrong numbers found was : 4
+Welcome to armstrong number calculator.
+Please enter an integer from 10 through 100,000,000(without the commas): 10000
+The Armstrong numbers from 10 to 10000  are:
+
+153
+370
+371
+407
+1634
+8208
+9474
+
+The total number of Armstrong numbers found was : 7
+Welcome to armstrong number calculator.
+Please enter an integer from 10 through 100,000,000(without the commas): 100000
+The Armstrong numbers from 10 to 100000  are:
+
+153
+370
+371
+407
+1634
+8208
+9474
+54748
+92727
+93084
+
+The total number of Armstrong numbers found was : 10
+Welcome to armstrong number calculator.
+Please enter an integer from 10 through 100,000,000(without the commas): 1000000
+The Armstrong numbers from 10 to 1000000  are:
+
+153
+370
+371
+407
+1634
+8208
+9474
+54748
+92727
+93084
+548834
+
+The total number of Armstrong numbers found was : 11
+Welcome to armstrong number calculator.
+Please enter an integer from 10 through 100,000,000(without the commas): 10000000
+The Armstrong numbers from 10 to 10000000  are:
+
+153
+370
+371
+407
+1634
+8208
+9474
+54748
+92727
+93084
+548834
+1741725
+4210818
+9800817
+9926315
+
+The total number of Armstrong numbers found was : 15
+
+Welcome to armstrong number calculator.
+Please enter an integer from 10 through 1000,000,000(without the commas): 100000000
+The Armstrong numbers from 10 to 100000000  are:
+
+153
+370
+371
+407
+1634
+8208
+9474
+54748
+92727
+93084
+548834
+1741725
+4210818
+9800817
+9926315
+24678050
+24678051
+88593477
+
+The total number of Armstrong numbers found was : 18
+Welcome to armstrong number calculator.
+Please enter an integer from 10 through 100,000,000(without the commas): 9
+ERROR
+Enter a 10 for correct input: 10
+Entered number is in range
+
+The total number of Armstrong numbers found was : 0
+Welcome to armstrong number calculator.
+Please enter an integer from 10 through 100,000,000(without the commas): 1000000001
+ERROR
+Enter a 10 for correct input: 10
+Entered number is in range
+
+The total number of Armstrong numbers found was : 0
+
